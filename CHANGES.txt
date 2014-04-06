@@ -1,0 +1,16 @@
+CHANGE LOG
+1.8.1 - Apr. 3 2014
+
+- Made code more readable.
+- Since jquery is loaded, took advantage of it and added better UI for style selection with preview.
+
+
+1.8 - Apr. 3 2014
+
+- Initial release.
+
+
+
+
+
+

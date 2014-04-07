@@ -67,8 +67,8 @@ li {
 	list-style:none;
 }
 
-.elgg-foot {
-	margin-top:20px;
+.elgg-module-walledgarden > .elgg-foot {
+	margin-top:0px;
 }
 
 /** system messages **/

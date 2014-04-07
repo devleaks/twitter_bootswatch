@@ -1,0 +1,5 @@
+This theme is loosely inspired from Dave Tosh's bootstrap_united available here.
+I did adjustments to allow for theme selection. Nothing much.
+Feel free to copy and reuse this code if you find it useful.
+Do not hesitate to collaborate to the project if you have idea.
+Pierre M. April 2014.

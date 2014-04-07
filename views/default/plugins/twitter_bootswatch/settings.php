@@ -11,7 +11,7 @@ $available = array(
 	'amelia',	'cerulean',	'cosmo',	'cyborg',
 	'flatly',	'journal',	'readable',	'simplex',
 	'slate',	'spacelab',	'spruce',	'superhero',
-	'united' );
+	'united',	'bootswatchr' );
 $optvalues = array();
 foreach($available as $style)
 	$optvalues[$style] = ucwords($style);

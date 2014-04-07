@@ -23,6 +23,7 @@ function twitter_bootswatch_init() {
 		case 'spruce':
 		case 'superhero':
 		case 'united':
+		case 'bootswatchr':
 			break;
 		default:
 			$bootswatch_style = 'cyborg';
@@ -34,7 +35,7 @@ function twitter_bootswatch_init() {
 	// Extend system CSS with our own styles
 	elgg_extend_view('css/elgg', 'twitter_bootswatch/css');
 
-	// united bootstrap
+	// Register bootswatch CSS
 	$bootstrap_css = 'mod/twitter_bootswatch/vendors/bootstrap-'.$bootswatch_style.'.min.css';
 	elgg_register_css('twitter_bootswatch_css', $bootstrap_css, 5);
 

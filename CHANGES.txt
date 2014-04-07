@@ -1,4 +1,8 @@
 CHANGE LOG
+1.8.2 - 
+- Added bootswatchr style sheet that can be overwritten with style built at bootswatchr.com.
+
+
 1.8.1 - Apr. 3 2014
 
 - Made code more readable.

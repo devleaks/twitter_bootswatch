@@ -52,9 +52,10 @@ When you are done, name your style, and save it; use minified version when savin
 
 Copy your style saved from bootswatchr.com to your elgg mod directory in
 
-`
+```
 mod/twitter_bootswatch/vendors/bootstrap-bootswatchr.min.css
-`
+```
+
 Overwrite the existing file if necessary.
 
 Login as administrator on Elgg, activate twitter_bootswatch plugin,
@@ -69,11 +70,11 @@ If you use fancy fonts, make sure they get loaded before using them in the style
 For example, in the bootstrap-bootswatchr.min.css provided with the plugin, the following lines were preprended
 to the file downloaded from bootswatchr.com:
 
-`
+````css
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/css?family=Cousine);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,700italic,400italic,300,300italic,900,900italic);
-`
+```
 
 Also, recall that import statements must appear first in the style sheet.
 

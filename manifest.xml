@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+	<id>twitter_bootswatch</id>
 	<name>Bootswatch Themes</name>
 	<author>Pierre M</author>
-	<version>1.8.2</version>
+	<version>1.9.0</version>
 	<description>Alternative bootstrap themes for Elgg.</description>
 	<website>https://github.com/devleaks/twitter_bootswatch</website>
 	<copyright>See COPYRIGHT.txt</copyright>
 	<license>GNU General Public License version 2</license>
 	<requires>
 		<type>elgg_release</type>
-		<version>1.8</version>
+		<version>1.9</version>
 	</requires>
 	<requires>
 		<type>plugin</type>

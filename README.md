@@ -1,3 +1,4 @@
+
 ## Twitter Bootswatch Themes ##
 
 twitter_bootswatch is an "add-on" plugin to the twitter_bootstrap plugin (https://github.com/davetosh/twitter_bootstrap).
@@ -13,7 +14,7 @@ Actually, all themes available there are bundled in the twitter_bootswatch plugi
 
 This plugin requires that Twitter Bootstrap for Elgg plugin  be installed and enabled.
 
-Bootswatch Theme can be previewed and selected in Administration panel, under Module Parameters->Bootswatch Theme.
+Bootswatch Theme can be previewed and selected in Administration panel, under `Module Parameters->Bootswatch Theme`.
 
 
 
@@ -39,12 +40,12 @@ Finally, enjoy the new look of your site.
 
 ## Infinite Styles ##
 
-Ì just added one more style sheet called bootswatchr.
+I just added one more style sheet called bootswatchr.
 
 Just head to bootswatchr.com and create your own style.
 
-Make sure you select "Bootstrap 2.3.X" in settings at the top, and "Enable Responsive" option.
-Use Bootstrap 2 for previewing as well.
+Make sure you select "Bootstrap 3.X" in settings at the top, and "Enable Responsive" option.
+Use Bootstrap 3 for previewing as well.
 
 Adjust all settings to your liking: Colors, backgrounds, gradients, font families...
 

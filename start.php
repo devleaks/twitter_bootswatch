@@ -20,7 +20,6 @@ function twitter_bootswatch_init() {
 		case 'simplex':
 		case 'slate':
 		case 'spacelab':
-		case 'spruce':
 		case 'superhero':
 		case 'united':
 		case 'bootswatchr':
@@ -41,7 +40,7 @@ function twitter_bootswatch_init() {
 
 	//unload default bootstrap css and load new one
 	elgg_unregister_css('bootstrap_css');
-	if(get_context() != 'admin'){
+	if(elgg_get_context() != 'admin') {
 		elgg_load_css('twitter_bootswatch_css');
 	}
 }

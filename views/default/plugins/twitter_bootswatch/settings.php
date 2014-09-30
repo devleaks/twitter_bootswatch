@@ -10,15 +10,14 @@ if (!$curstyle) $curstyle = 'united';
 $available = array(
 	'amelia',	'cerulean',	'cosmo',	'cyborg',
 	'flatly',	'journal',	'readable',	'simplex',
-	'slate',	'spacelab',	'spruce',	'superhero',
-	'united',	'bootswatchr' );
+	'slate',	'spacelab',	'superhero','united', 'bootswatchr' );
 $optvalues = array();
 foreach($available as $style)
 	$optvalues[$style] = ucwords($style);
 ?>
 <div>
 	<div id="bootswtach_preview"><?php
-		$preview_dir = $CONFIG->url . 'mod/twitter_bootswatch/bootswatches/';
+		$preview_dir = elgg_get_config('url') . 'mod/twitter_bootswatch/bootswatches/';
 		foreach($available as $style)
 			echo "<img src='{$preview_dir}{$style}.png' data-name='{$style}' title='".ucwords($style)."' width='150'
 					style='height: auto; cursor: pointer; padding: 2px; margin: 2px;' />"; ?>

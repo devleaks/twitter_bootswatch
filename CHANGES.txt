@@ -1,4 +1,10 @@
 CHANGE LOG
+
+1.9.0
+- Changed styles and preview icons to bootstrap 3.X. Adjusted readme accordingly.
+- Updated code for Elgg 1.9.
+
+
 1.8.2 - 
 - Added bootswatchr style sheet that can be overwritten with style built at bootswatchr.com.
 
